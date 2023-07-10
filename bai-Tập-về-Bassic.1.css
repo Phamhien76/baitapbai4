@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white-color: white;
+    --black-color: black;
+    --blu-color: #00aeef;
+    --grey-color:#8598cc;
+}
+#wrapper{
+   text-align: center;
+   margin-top: 36px;
+}
+#wrapper .size{
+    background-color: var(--grey-color);
+    width: fit-content;
+    margin: auto;
+    color: var(--white-color);
+    margin-bottom: 10px;
+}
+#wrapper h2{
+    font-size: 36px;
+}
+#wrapper h2 span{
+    color: var(--blu-color);
+}
+#wrapper p{
+    margin: 20px 0;
+}
+#wrapper .btn button{
+    padding: 20px 30px;
+    background-color: var(--black-color);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: var(--white-color);
+}

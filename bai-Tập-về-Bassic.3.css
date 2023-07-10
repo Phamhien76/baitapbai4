@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#wrapper h3{
+    text-align: center;
+    font-family:'Arial Narrow', Arial, sans-serif;
+}
+#wrapper img{
+    margin-left: 40%;
+}
+#wrapper span{
+    color: red;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+#wrapper p{
+    font-family:'Arial Narrow', Arial, sans-serif;
+}
